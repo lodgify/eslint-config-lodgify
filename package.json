@@ -1,0 +1,46 @@
+{
+  "name": "eslint-config-lodgify",
+  "description": "ESLint config for Lodgify's projects.",
+  "version": "0.0.0-development",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lodgify/eslint-config-lodgify.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "lint": "eslint index.js rule-options/*",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,json,md}\"",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.8.2",
+    "prettier": "^1.12.1",
+    "semantic-release": "^15.4.1",
+    "travis-deploy-once": "^5.0.0"
+  }
+}

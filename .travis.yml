@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - '8'
+
+cache: yarn
+
+notifications:
+  email: false
+
+script:
+ - yarn lint
+
+after_success:
+  - npm run travis-deploy-once "npm run semantic-release"
+
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/
