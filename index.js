@@ -1,5 +1,6 @@
 const importNoUnresolved = require('./rule-options/import.no-unresolved');
 const importOrder = require('./rule-options/import.order');
+const paddingLineBetweenStatements = require('./rule-options/padding-line-between-statements');
 const prettierPrettier = require('./rule-options/prettier.prettier');
 const reactBooleanPropNaming = require('./rule-options/react.boolean-prop-naming');
 const reactJsxFilenameExtension = require('./rule-options/react.jsx-filename-extension');
@@ -34,6 +35,7 @@ module.exports = {
     'import/no-default-export': 2,
     'import/no-unresolved': [2, importNoUnresolved],
     'import/order': [2, importOrder],
+    'padding-line-between-statements': [2, ...paddingLineBetweenStatements],
     'no-console': 2,
     'no-undef': 2,
     'no-unreachable': 2,
