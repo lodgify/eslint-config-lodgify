@@ -4,14 +4,14 @@ Set of ESLint rules and plugins used accross [Lodgify](https://github.com/lodgif
 
 ## Installation
 
-Add `eslint-config-lodgify` to your dev dependencies.
+Add `@lodgify/eslint-config` to your dev dependencies.
 
 ```
-npm install --save-dev eslint-config-lodgify
+npm install --save-dev @lodgify/eslint-config
 ```
 
 ```
-yarn add --dev eslint-config-lodgify
+yarn add --dev @lodgify/eslint-config
 ```
 
 Use it in your `.eslintrc` file.
@@ -29,5 +29,5 @@ If you use the Prettier CLI directly, or if you need to integrate it with some f
 You can use this `prettier.config.js` file for that.
 
 ```
-module.exports = require('eslint-config-lodgify/prettier.config.js');
+module.exports = require('@lodgify/eslint-config/prettier.config.js');
 ```

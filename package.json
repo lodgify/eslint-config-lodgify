@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-lodgify",
+  "name": "@lodgify/eslint-config",
   "description": "ESLint config for Lodgify's projects.",
   "version": "0.0.0-development",
   "license": "MIT",
