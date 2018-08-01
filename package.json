@@ -18,6 +18,9 @@
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "babel-eslint": "^8.2.3",
     "babel-plugin-module-resolver": "^3.1.1",
