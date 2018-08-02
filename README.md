@@ -18,7 +18,7 @@ Use it in your `.eslintrc` file.
 
 ```
 {
-  "extends": ["lodgify"]
+  "extends": ["@lodgify"]
 }
 ```
 
