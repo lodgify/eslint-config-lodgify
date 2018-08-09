@@ -55,6 +55,7 @@ module.exports = {
     'react/prop-types': 2,
     'react/react-in-jsx-scope': 2,
     'react/require-default-props': 2,
+    'react/sort-comp': 2,
     'react/sort-prop-types': [2, reactSortPropTypes],
     'require-jsdoc': [2, requireJsdoc],
   },
