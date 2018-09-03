@@ -23,7 +23,7 @@ module.exports = {
     },
     sourceType: 'module',
   },
-  plugins: ['babel', 'import', 'prettier', 'react'],
+  plugins: ['babel', 'import', 'prettier', 'react', 'jsdoc'],
   settings: {
     'import/resolver': {
       'babel-module': {},
@@ -35,6 +35,14 @@ module.exports = {
     'import/no-default-export': 2,
     'import/no-unresolved': [2, importNoUnresolved],
     'import/order': [2, importOrder],
+    'jsdoc/check-param-names': 2,
+    'jsdoc/check-types': 2,
+    'jsdoc/no-undefined-types': 2,
+    'jsdoc/require-param': 2,
+    'jsdoc/require-param-name': 2,
+    'jsdoc/require-param-type': 2,
+    'jsdoc/require-returns-type': 2,
+    'jsdoc/valid-types': 2,
     'padding-line-between-statements': [2, ...paddingLineBetweenStatements],
     'no-console': 2,
     'no-undef': 2,
