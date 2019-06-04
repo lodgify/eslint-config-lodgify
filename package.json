@@ -24,7 +24,7 @@
   "peerDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
-    "babel-plugin-module-resolver": "^3.1.1",
+    "babel-plugin-module-resolver": ">=3.1.1 <= 5",
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
     "eslint-import-resolver-babel-module": "^4.0.0",
