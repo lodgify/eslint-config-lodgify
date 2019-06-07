@@ -28,6 +28,9 @@ module.exports = {
     'import/resolver': {
       'babel-module': {},
     },
+    react: {
+      version: 'detect',
+    },
   },
   rules: {
     'import/named': 2,
